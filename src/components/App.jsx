@@ -4,7 +4,7 @@ import reactLogo from '../assets/react.svg'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // import '../styles/styles.css'
 import Login from './Login'
-import greeting from "./Home"
+import  Register from './Register'
 function App() {
 
   return (
@@ -12,7 +12,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/login" Component={Login} />
-        <Route path="/test" Component={greeting} />
+        <Route path="/register" Component={Register} />
         </Routes>
     </div>
     </BrowserRouter>

@@ -20,7 +20,7 @@ export const Login = props =>
                     input(type="text", name="loginUserName", placeholder="Username or Email", required="")
                     input(type="text", name="loginPassword", placeholder="Password", required="")
                     input(type="submit", value="Login")
-                a(href="/test") Need an account? Register Here. 
+                a(href="/register") Need an account? Register Here. 
 `
 
 
